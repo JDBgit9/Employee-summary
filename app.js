@@ -18,7 +18,7 @@ function createManageer() {
     inquirer.prompt([{
         type: "input",
         name: "managerName",
-        message: "what is your name?",
+        message: "what is your manager's name?",
         validate: answer => {
             if (answer !=="") {
                 return true;
@@ -28,7 +28,6 @@ function createManageer() {
         }
     },
     {
-
         type: "input",
         name: "managerID",
         message: "What is you manager ID?",
@@ -36,6 +35,16 @@ function createManageer() {
             if (answer !=="") {
                 return true;
             }
+            return "Please enter manager ID"
+        },
+        type: "input",
+        name: "managerEmail",
+        message: "What is your manager's email?",
+        validate: answer => {
+            if (answer !=="") {
+                return true;
+            }
+            return "Please enter email address"
         }
 
     }])
