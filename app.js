@@ -70,8 +70,19 @@ function createManageer() {
             name: "teamMember",
             message: "Which team member would you like add",
             choices: ["Engineer", "Intern", "I don't want anymore team members"]
-
-        }])
+        
+        }]).then(answer => {
+            console.log(answer.teamMember);
+            if (answer.teamMember === "Engineer") {
+                createEngineer();
+            }
+            if (answer.teamMember === "Intern") {
+                createIntern();
+            }
+            if (answer.teamMember === "I don't want anymore team members") {
+                
+            }
+        })
     }
 }
 createManageer();
