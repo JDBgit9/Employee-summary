@@ -45,10 +45,36 @@ function createManageer() {
                 return true;
             }
             return "Please enter email address"
-        }
+        },
+        type: "input",
+        name: "managerNumber",
+        message: "What is your manager's number?",
+        validate: answer => {
+            if (answer !=="") {
+                return true;
+            }
+            return "Please enter manger's number"
+        },
+    }]).then(answer => {
+        const manager = newManager(answer.managerName, answer.managerId, answer.managerEmail, answer.managerNumber);
+        teamMember.push(manager);
+        idArray.push(answer.managerId);
+        nextTeamMember();
 
-    }])
+    })
 }
+{
+    function nextTeamMember() {
+        inquirer.prompt([{
+            type: "list",
+            name: "teamMember",
+            message: "Which team member would you like add",
+            choices: ["Engineer", "Intern", "I don't want anymore team members"]
+
+        }])
+    }
+}
+createManageer();
 
 
 // Write code to use inquirer to gather information about the development team members,
