@@ -28,7 +28,7 @@ Yes I will post a video
 undefined
 
 ## Badges
-undefined
+![](https://img.shields.io/github/license/JDBgit9/Employee-summary)
 
 ## License 
 MIT
