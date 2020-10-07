@@ -25,7 +25,7 @@ Johnny D, Dan the man, Ben B, Alyssa, Katie C, big shout out Chrisitan M, the cl
 Yes I will post a video
 
 ## Sources/links
-undefined
+![](https://drive.google.com/file/d/19onYVhI0ua-XoFwfH7JF1qI0B_nALFPn/view)
 
 ## Badges
 ![](https://img.shields.io/github/license/JDBgit9/Employee-summary)
