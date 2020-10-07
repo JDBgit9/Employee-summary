@@ -26,6 +26,7 @@ Yes I will post a video
 
 ## Sources/links
 ![](https://drive.google.com/file/d/19onYVhI0ua-XoFwfH7JF1qI0B_nALFPn/view)
+![](<iframe src="https://drive.google.com/file/d/19onYVhI0ua-XoFwfH7JF1qI0B_nALFPn/preview" width="640" height="480"></iframe>)
 
 ## Badges
 ![](https://img.shields.io/github/license/JDBgit9/Employee-summary)
